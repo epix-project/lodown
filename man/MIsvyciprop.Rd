@@ -4,9 +4,9 @@
 \alias{MIsvyciprop}
 \title{variant of survey::svyciprop that works on multiply-imputed data}
 \usage{
-MIsvyciprop(formula, design, method = c("logit", "likelihood", "asin", "beta",
-  "mean", "xlogit"), level = 0.95, df = mean(unlist(lapply(design$designs,
-  survey::degf))), ...)
+MIsvyciprop(formula, design, method = c("logit", "likelihood", "asin",
+  "beta", "mean", "xlogit"), level = 0.95,
+  df = mean(unlist(lapply(design$designs, survey::degf))), ...)
 }
 \description{
 variant of survey::svyciprop that works on multiply-imputed data

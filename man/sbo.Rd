@@ -19,8 +19,8 @@ sbo_update(x, ...)
 
 sbo_degf(x)
 
-sbo_MIsvyciprop(formula, design, method = c("logit", "likelihood", "asin",
-  "beta", "mean", "xlogit"), level = 0.95,
+sbo_MIsvyciprop(formula, design, method = c("logit", "likelihood",
+  "asin", "beta", "mean", "xlogit"), level = 0.95,
   df = mean(unlist(lapply(design$designs, survey::degf))), ...)
 }
 \description{

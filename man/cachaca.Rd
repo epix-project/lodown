@@ -4,10 +4,9 @@
 \alias{cachaca}
 \title{best file download, all other file downloads have inferior potassium}
 \usage{
-cachaca(this_url, destfile = NULL, ..., FUN = download.file, attempts = 3,
-  sleepsec = 60, filesize_fun = "httr",
-  savecache = getOption("lodown.cachaca.savecache", TRUE),
-  cdc_ftp_https = TRUE)
+cachaca(this_url, destfile = NULL, ..., FUN = download.file,
+  attempts = 3, sleepsec = 60, filesize_fun = "httr",
+  savecache = getOption("lodown.cachaca.savecache", TRUE))
 }
 \arguments{
 \item{this_url}{where to download from}
